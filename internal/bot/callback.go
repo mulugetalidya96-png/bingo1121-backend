@@ -63,7 +63,7 @@ func (b *Bot) handleDepositBankSelection(
 			ctx,
 			chatID,
 			"📱 *Telebirr Deposit*\n\n"+
-				"Account:  `0931168077` — Natnaeil\n\n"+
+				"Account:  `0931168077` — Natnael\n\n"+
 				"━━━━━━━━━━━━━━━\n"+
 				"📱 *Telebirr Deposit Steps*\n\n"+
 				"1️⃣ ከላይ ባለው የ Telebirr አካውንት ገንዘቡን ያስገቡ።\n"+
