@@ -132,7 +132,7 @@ func (b *Bot) handleTelebirrSMS(
 	b.sendText(ctx, chatID, "⏳ Verifying transaction...")
 
 	// 6️⃣ Get phone number
-	babiBingoPhone := "0905534062"
+	babiBingoPhone := "0931168077"
 
 	// 7️⃣ Call verify.et API
 	verifyClient := verify.NewVerifyClient(b.cfg.VerifyAPIKey)
