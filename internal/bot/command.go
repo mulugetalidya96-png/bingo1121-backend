@@ -452,7 +452,7 @@ func (b *Bot) handleAgent(
 					"🔑 Referral Code: `%s`\n\n"+
 					"📤 Share your referral link to earn commissions!\n"+
 					"1 ETB per card played by your invited users.\n\n"+
-					"🔗 https://t.me/bingo1121\\bot?start=ref\\_%d",
+					"🔗 https://t.me/bingo1121bot?start=ref\\_%d",
 				u.AgentBalance,
 				totalCommission,
 				referralCount,
@@ -523,7 +523,7 @@ func (b *Bot) handleInvite(
 
 	// ✅ Escape the underscore with backslash
 	link := fmt.Sprintf(
-		"https://t.me/bingo1121\\bot?start=ref\\_%d",
+		"https://t.me/bingo1121bot?start=ref\\_%d",
 		user.ID,
 	)
 
