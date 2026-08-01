@@ -317,7 +317,7 @@ func (b *Bot) handleCBEBirrSMS(
 	b.sendText(ctx, chatID, "⏳ Verifying CBE Birr transaction ...")
 
 	// 6️⃣ Set our business name (receiver)
-	businessName := "FREZER WIDNEH"
+	businessName := "MEBRAHTU GEBREMESKEL GEBREKIDAN"
 
 	// 7️⃣ Call verify.et API for CBE Birr
 	verifyClient := verify.NewVerifyClient(b.cfg.VerifyAPIKey)

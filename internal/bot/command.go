@@ -184,14 +184,14 @@ func (b *Bot) bankSelectionKeyboard() *telego.InlineKeyboardMarkup {
 	return &telego.InlineKeyboardMarkup{
 		InlineKeyboard: [][]telego.InlineKeyboardButton{
 			{
-				{
-					Text:         "📱 Telebirr",
-					CallbackData: "deposit_telebirr",
-				},
-				//{
-				//	Text:         "🏦 CBE Birr",
-				//	CallbackData: "deposit_cbebirr",
+			//	{
+			//		Text:         "📱 Telebirr",
+			//		CallbackData: "deposit_telebirr",
 				//},
+				{
+					Text:         "🏦 CBE Birr",
+					CallbackData: "deposit_cbebirr",
+				},
 			},
 			{
 				{

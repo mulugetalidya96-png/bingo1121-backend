@@ -79,7 +79,7 @@ func (b *Bot) handleDepositBankSelection(
 			ctx,
 			chatID,
 			"🏦 *CBEBirr Deposit*\n\n"+
-				"Account: `0936033937` — Frezer Wudeneh\n\n"+
+				"Account: `0932347568` — Mebrahtu Gebremeskel\n\n"+
 				"━━━━━━━━━━━━━━━\n"+
 				"📱 *CBEBirr Deposit Steps*\n\n"+
 				"1️⃣ ከላይ ባለው የ CBEBirr አካውንት ገንዘቡን ያስገቡ።\n"+
