@@ -165,20 +165,7 @@ func checkWinPattern(card models.CardJSON, marked []int) string {
 
 	// ✅ NEW: Check Center Cross
 	// Center cross: middle row (2,0-4) and middle column (0-4,2)
-	centerCross := [][2]int{
-		 {2, 1}, {2, 2}, {2, 3}, // Middle row
-		 {1, 2}, {3, 2}, // Middle column (excluding center which is already counted)
-	}
-	allCrossMarked := true
-	for _, pos := range centerCross {
-		if !isMarked(pos[0], pos[1]) {
-			allCrossMarked = false
-			break
-		}
-	}
-	if allCrossMarked {
-		return "center_cross"
-	}
+	
 
 	return ""
 }
@@ -271,18 +258,6 @@ func verifyWinDoubleCheck(card models.CardJSON, marked []int, pattern string) bo
 	case "four_corners":
 		corners := [][2]int{{0, 0}, {0, 4}, {4, 0}, {4, 4}}
 		for _, pos := range corners {
-			if !isMarked(pos[0], pos[1]) {
-				return false
-			}
-		}
-		return true
-
-	case "center_cross":
-		centerCross := [][2]int{
-			{2, 1}, {2, 2}, {2, 3},
-			{1, 2}, {3, 2},
-		}
-		for _, pos := range centerCross {
 			if !isMarked(pos[0], pos[1]) {
 				return false
 			}
